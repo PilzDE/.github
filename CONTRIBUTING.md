@@ -39,19 +39,19 @@ dpkg -l ros-melodic-prbt*
 If you are using `kinetic`, please substitute `melodic` with `kinetic`.
   
 If you are building from source, tell us for each PILZ-ROS
-repository you are building, which version/commit id you are using.  
+repository you are building, which version/commit you are using.  
 
 ### Steps to reproduce bug
 The step by step description, enables us to easily reproduce the bug with 
 our hardware which, in turn, is key in fixing the bug.
 Try to be as specific as possible. If it possible, try to reduce the scenario 
 which produces the bug, to the absolute minimum. 
-In other words, try to minimize the number of bugs,
+In other words, try to minimize the number of steps,
 needed to reproduce the bug.
 
 ### Expected behavior
 Tell us what you would expect to happen. This information allows us to verify,
-if it is an actual bug or maybe just a misunderstand of some functionality.
+if it is an actual bug or maybe just a misunderstanding of some functionality.
 Furthermore, this information allow us, to ensure that the fixed system
 behaves as expected by the user.
 
@@ -78,6 +78,12 @@ to reproduce the bug and check if the bug is fixed.
 ## Adding features/ fixing things
 If you want to develop new features or fix a bug, you should first have a look
 at our [development guidelines](development_guidelines.md).
+
+If you have only a rough idea that you want to discuss,
+or if you are not sure about the best way to implement the feature we 
+encourage you to open a
+[draft pull request](https://github.blog/2019-02-14-introducing-draft-pull-requests/)
+as a basis for discussion.
 
 TODO
 

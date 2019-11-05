@@ -90,9 +90,6 @@ To check that the continuous integration runs without problems on
 For more information on how to do that have a look at the
 [Travis tutorials](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci).  
   
-**Note:**  
-In our repositories already exists a `.travis.yml` file, so there is no need
-to create your own.
 
 ### How-to run the CI processes locally
 If you have a look at our
@@ -106,7 +103,6 @@ To achieve this, have a look at the explanations given in the
 [ros-industrial repository](https://github.com/ros-industrial/industrial_ci/blob/legacy/doc/index.rst#run-industrial_ci-on-local-host).
 
 ## Code style guide
-<!---TODO: Are we really compliant with the ROS coding style guide? --->
 We follow the [ROS coding style guide](http://wiki.ros.org/CppStyleGuide). 
 Currently, the styling of the code is not automatically checked by the CI, 
 so please make sure that you comply with the ROS coding style guide. 
