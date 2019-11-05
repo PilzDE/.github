@@ -77,6 +77,9 @@ If possible you should provide us with a test, which allows us
 to reproduce the bug and check if the bug is fixed.
 
 ## Adding features/ fixing things
+If you want to develop new features or fix a bug, you should first have a look
+at our [development guidelines](developement_guidelines.md).
+
 TODO
 
   
