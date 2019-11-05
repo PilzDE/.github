@@ -19,8 +19,7 @@ We expect everyone who wants to participate in our projects to uphold our
 Like many other projects on GitHub, we track bugs as 
 [GitHub issues](https://guides.github.com/features/issues/).
 If you want to report a bug, please open an issue on the correct repository and
-use our [issue template](ISSUE_TEMPLATE.md) to provide all necessary 
-information.  
+use our issue template to provide all necessary information.  
 The following sections shortly describe the different information which should
 be included in the issue description. 
 
@@ -78,7 +77,7 @@ to reproduce the bug and check if the bug is fixed.
 
 ## Adding features/ fixing things
 If you want to develop new features or fix a bug, you should first have a look
-at our [development guidelines](developement_guidelines.md).
+at our [development guidelines](development_guidelines.md).
 
 TODO
 
