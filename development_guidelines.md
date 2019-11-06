@@ -38,8 +38,8 @@ To ensure that our software fulfills our self-imposed high standards, we
 developed a number of rules and guidelines which are presented in this document.
 
 We are aware of the fact that our rules and guidelines might at times seem
-overly strict. But please know that we welcome every type of contribution and
-we are always willing and eager to help getting changes upstream.
+overly strict. However, please know that we welcome every type of contribution.
+We are always willing and eager to help getting changes upstream.
 
 **Please note:**
 This document is an ongoing work, in other words, things might
