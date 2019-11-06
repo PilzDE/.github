@@ -7,7 +7,6 @@
   - [How-to activate Travis for forked repositories](#how-to-activate-travis-for-forked-repositories)
   - [How-to run the CI processes locally](#how-to-run-the-ci-processes-locally)
 - [Code style guide](#code-style-guide)
-  - [Naming conventions](#naming-conventions)
   - [How-to format code automatically](#how-to-format-code-automatically)
 - [Coverage](#coverage)
   - [How-to check coverage in C++ and Python](#how-to-check-coverage-in-c-and-python)
@@ -25,7 +24,6 @@
   - [How-to deal with threads in tests](#how-to-deal-with-threads-in-tests)
   - [Gtest command line flags](#gtest-command-line-flags)
   - [How-to run particular test of test suite](#how-to-run-particular-test-of-test-suite)
-- [Mocking the hardware](#mocking-the-hardware)
 - [FAQ](#faq)
 
 ## Default development branch
