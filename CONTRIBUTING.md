@@ -75,21 +75,32 @@ logging output, to ensure that the logging output format remains intact.
 If possible you should provide us with a test, which allows us 
 to reproduce the bug and check if the bug is fixed.
 
-## Adding features/ fixing things
-If you want to develop new features or fix a bug, you should first have a look
-at our [development guidelines](development_guidelines.md).
+## Adding new features/ fixing things
+If you want to contribute to the code base you should:
+- create your own fork of the repository which you want to work on,
+- make your changes and then
+- open a pull request.
 
-If you have only a rough idea that you want to discuss,
-or if you are not sure about the best way to implement the feature we 
+A good description on how-to contribute to a project can be found in the
+[GitHub guides](https://guides.github.com/activities/forking/).  
+If you have only a rough idea of a new feature
+or if you are not sure about the best way to implement a feature, we 
 encourage you to open a
 [draft pull request](https://github.blog/2019-02-14-introducing-draft-pull-requests/)
-as a basis for discussion.
+as a basis for discussion.  
 
-TODO
+When you want to open a pull request, you should first have a look
+at our [development guidelines](development_guidelines.md). The development
+guidelines give you an idea of all the things we consider important when
+developing new features or fixing bugs.  
+It is important to note that all pull requests undergo a rigorous review 
+process. Please do not be disappointed if your pull request is not accepted 
+right away. Often there exist a number of issues which need be fixed/changed 
+before the pull request can be accepted.
 
-  
-  
-  
+
+
+
 To all people contributing/participating:  
 Thanks! :heart: :muscle:  
   
