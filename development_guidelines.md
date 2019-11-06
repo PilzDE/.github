@@ -49,11 +49,11 @@ please feel free to open a pull request to showcase your changes.
 
 ## Default development branch
 Our current default development branch is melodic-devel 
-(see [here](https://github.com/PilzDE/pilz_robots/branches)).
+(see [GitHub](https://github.com/PilzDE/pilz_robots/branches)).
 All new feature are developed for 
 [ROS Melodic Morenia](https://www.ros.org/reps/rep-0003.html#melodic-morenia-may-2018-may-2023) 
-which primarily targets Ubuntu Bionic (18.04) (for more information see 
-[here](http://wiki.ros.org/melodic)).  
+which primarily targets Ubuntu Bionic (18.04) (for more information see the
+[ROS wiki](http://wiki.ros.org/melodic)).  
 For backwards compatibility reasons we still support 
 [ROS Kinetic Kame](https://www.ros.org/reps/rep-0003.html#kinetic-kame-may-2016-may-2021)
 in combination with Ubuntu Xenial (16.04).
@@ -76,7 +76,7 @@ In general the reviewer has to check/review the following:
   - The feature and its changes to the system are comprehensively specified.
   - All requirements are exhaustively tested by one or more tests.
   - All specifications are linked against their corresponding tests 
-(how-to link see [here](#how-to-link-a-requirement-against-a-test))
+(how-to link see section: [How-to link a requirement against a test](#how-to-link-a-requirement-against-a-test))
 - User interface:
   - The user interface is easy to understand and use.
   - The user interface is comprehensively documented.
@@ -92,8 +92,8 @@ interface version has to be adapted according the nature of the change.
 - Tests:
   - The tests are easy to understand (e.g. each test only checks one aspect 
 of a component, etc.)
-  - The tests are comprehensively documented (how-to document tests see
-[here](#how-to-document-tests))
+  - The tests are comprehensively documented (how-to document tests see section:
+[How-to docuemt tests](#how-to-document-tests))
 
 
 ## Continuous integration (CI)
@@ -128,7 +128,7 @@ so please make sure that you comply with the ROS coding style guide.
 
 ### How-to format code automatically
 If you want to automatically format your code using the ROS style guide,
-then see [here](http://wiki.ros.org/CppStyleGuide#Autoformatting_of_ROS_Code).
+then see the [ROS wiki](http://wiki.ros.org/CppStyleGuide#Autoformatting_of_ROS_Code).
 
 ## Coverage
 Only PR's are accepted which have a 100% line and function coverage. 
@@ -242,8 +242,8 @@ the corresponding requirement. On how-to do that see the
 
 ### Obtaining the logging output
 For logging we highly rely on the ROS logging framework 
-(for C++ see [here](http://wiki.ros.org/roscpp/Overview/Logging), 
-for Python see [here](http://wiki.ros.org/rospy_tutorials/Tutorials/Logging)).  
+(for C++ see the [roscpp - ROS wiki](http://wiki.ros.org/roscpp/Overview/Logging), 
+for Python see the [rospy - ROS wiki](http://wiki.ros.org/rospy_tutorials/Tutorials/Logging)). 
 However, when it comes to testing, obtaining the logging output is not always
 as straight forward.
 
