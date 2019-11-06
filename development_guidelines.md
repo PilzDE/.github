@@ -107,9 +107,6 @@ We follow the [ROS coding style guide](http://wiki.ros.org/CppStyleGuide).
 Currently, the styling of the code is not automatically checked by the CI, 
 so please make sure that you comply with the ROS coding style guide. 
 
-### Naming conventions
-TODO
-
 ### How-to format code automatically
 If you want to automatically format your code using the ROS style guide,
 then see [here](http://wiki.ros.org/CppStyleGuide#Autoformatting_of_ROS_Code).
@@ -395,9 +392,6 @@ the `GTEST_FILTER` variable by setting:
 ```
 export GTEST_FILTER=*
 ```
-
-## Mocking the hardware
-TODO
 
 ## FAQ
 - **Q:** *How can I install missing system dependencies for a package?*  
