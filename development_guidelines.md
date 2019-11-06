@@ -1,6 +1,7 @@
 # Development guidelines
 
 #### Table of Contents
+- [Introduction](#introduction)
 - [Development branch](#default-development-branch)
 - [Review process](#review-process)
 - [Continuous integration](#continuous-integration-ci)
@@ -25,6 +26,26 @@
   - [Gtest command line flags](#gtest-command-line-flags)
   - [How-to run particular test of test suite](#how-to-run-particular-test-of-test-suite)
 - [FAQ](#faq)
+
+## Introduction
+[PILZ](https://www.pilz.com/en-INT) is a member of the 
+[ROS industrial consortium](https://rosindustrial.org/ric/current-members).
+As a member of the ROS industrial consortium we are committed to "[...] (extend)
+the advanced capabilities of the Robot Operating System (ROS) software to
+manufacturing" ([ROS-Industrial web page](https://rosindustrial.org/)).
+To archive this goal, we aim to develop software of high quality.  
+To ensure that our software fulfills our self-imposed high standards, we 
+developed a number of rules and guidelines which are presented in this document.
+
+We are aware of the fact that our rules and guidelines might at times seem
+overly strict. But please know that we welcome every type of contribution and
+we are always willing and eager to help getting changes upstream.
+
+**Please note:**
+This document is an ongoing work, in other words, things might
+change as time goes on. If you think that something is missing or incorrect,
+please feel free to open a pull request to showcase your changes.  
+
 
 ## Default development branch
 Our current default development branch is melodic-devel 
