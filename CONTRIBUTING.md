@@ -26,7 +26,7 @@ be included in the issue description.
 **Please note:** The information requested, are important for us to 
 understand and reproduce the issue and, consequently, to help you.
 
-### What package and/or repository versions are you using?
+### Software versions
 At first, you should tell us the versions of all PILZ-ROS packages you 
 are using. You can check the version of the installed PILZ-ROS packages with the 
 following terminal commands:  
