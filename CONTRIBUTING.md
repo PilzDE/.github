@@ -10,6 +10,10 @@ However, if you think that something is missing or if you think that something
 is incorrectly or badly explained, feel free to open a pull request to improve
 this document.
 
+## Code of conduct
+We expect everyone who wants to participate in our projects to uphold our
+[Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Reporting a Bug
 Like many other projects on GitHub, we track bugs as 
 [GitHub issues](https://guides.github.com/features/issues/).
