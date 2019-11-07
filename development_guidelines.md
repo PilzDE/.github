@@ -212,30 +212,6 @@ is used:
 ## Testing
 
 ### How-to document tests
-In order to keep the test documentation easily understandable,
-we separate the test documentation in two parts:  
-  
-The first part summarizes the objective of the test. Please make sure to only
-use one short sentence to summarize the objective. If the test has to be linked
-against a requirement, make sure to put the summarizing sentence into the
-doxygen test specification command. On how-to do that see the 
-[requirement linking section](#how-to-link-a-requirement-against-a-test).  
-  
-The second part is a detailed step by step description what the test does and
-what the expected result of the respective step is.
-To do so, we use the following scheme:
-```
-Test Sequence:
-  0. Explain in one short sentence what is done in step 1.
-  1. Explain in one short sentence what is done in step 2.
-  ...
-
-Expected Results:
-  0. Explain in one short sentence what result you expect in step 1.
-  1. Explain in one short sentence what result you expect in step 2.
-  ...
-
-```
 For a proper test documentation please do not forget to link the test against
 the corresponding requirement. On how-to do that see the
 [requirement linking section](#how-to-link-a-requirement-against-a-test).
