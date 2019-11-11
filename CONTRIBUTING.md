@@ -11,7 +11,7 @@ is incorrectly or badly explained, feel free to open a pull request to improve
 this document.
 
 ## Code of conduct
-We expect everyone who wants to participate in our projects to uphold our
+We maintain a code of conduct that we would like to promote to all contributors:
 [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Reporting a Bug
