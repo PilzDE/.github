@@ -398,3 +398,15 @@ Instead of `-y` which confirms all actions automatically, you can also
 use `--simulate` which shows you what `rosdep` wants to do. For more
 information about `rosdep` see the [ROS wiki](http://wiki.ros.org/rosdep)
 and also [docs.ros.org](https://docs.ros.org/independent/api/rosdep/html/).
+
+- **Q:** *How can I execute a sanitizer locally?*  
+  **A:** Steps which need be performed:
+  - Choose the sanitizer you want to use by setting the corresponding environment variable 
+to `1` (options: `ENABLE_ADDRESS_SANITIZING`, `ENABLE_MEMORY_SANITIZING`, 
+`ENABLE_UNDEFINED_BEHAVIOR_SANITIZING`)
+  - Delete your old `build` and `devel` folder, to ensure a clean build.
+  - Build everything with  
+`catkin_make -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug`
+  - Build your concrete test with the additional flags:  
+`-DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug`
+
