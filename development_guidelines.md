@@ -401,12 +401,14 @@ and also [docs.ros.org](https://docs.ros.org/independent/api/rosdep/html/).
 
 - **Q:** *How can I execute a sanitizer locally?*  
   **A:** Steps which need be performed:
-  - Choose the sanitizer you want to use by setting the corresponding environment variable 
-to `1` (options: `ENABLE_ADDRESS_SANITIZING`, `ENABLE_MEMORY_SANITIZING`, 
-`ENABLE_UNDEFINED_BEHAVIOR_SANITIZING`)
-  - Delete your old `build` and `devel` folder, to ensure a clean build.
-  - Build everything with  
-`catkin_make -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug`
-  - Build your concrete test with the additional flags:  
-`-DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug`
+  1. Delete your old `build` and `devel` folder, to ensure a clean build.
+  2. Build everything with the respective compiler flags:
+    - For the *address sanitizer* execute:  
+`catkin_make -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS_DEBUG="-g -fno-omit-frame-pointer -fsanitize=address" -DCMAKE_EXE_LINKER_FLAGS_DEBUG="-g -fsanitize=address"`
+    - For the *undefined behavior* sanitizer execute:  
+`catkin_make -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS_DEBUG="-g -fno-omit-frame-pointer -fsanitize=undefined -fno-sanitize-recover=all" -DCMAKE_EXE_LINKER_FLAGS_DEBUG="-g -fsanitize=undefined"`
+  3. Build your concrete test with the same additional compiler flags as 
+  stated in the previous step.
+  4. Execute your test. (Please note: This step is necessary because otherwise
+the sanitizer is not able to detect errors.)
 
