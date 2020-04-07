@@ -35,9 +35,9 @@ the advanced capabilities of the Robot Operating System (ROS) software to
 manufacturing" ([ROS-Industrial web page](https://rosindustrial.org/)).
 To archive this goal, we aim to develop software of high quality.  
 To ensure that our software fulfills our self-imposed high standards, we 
-developed a number of rules and guidelines which are presented in this document.
+developed a number of guidelines which are presented in this document.
 
-We are aware of the fact that our rules and guidelines might at times seem
+We are aware of the fact that our guidelines might at times seem
 overly strict. However, please know that we welcome every type of contribution.
 We are always willing and eager to help getting changes upstream.
 
@@ -212,30 +212,18 @@ is used:
 ## Testing
 
 ### How-to document tests
-In order to keep the test documentation easily understandable,
-we separate the test documentation in two parts:
+For a good test documentation choosing an expressive name is the first step.
+Using a good name you can sometimes express everything the test wants to check.
+If in doubt, don't hesitate to ask someone else, to ensure that you are using
+an appropriate name. It's often best to choose the final test name after the 
+test passes. Choose the test name based on the content of the test.
 
-The first part summarizes the objective of the test. Please make sure to only
-use one short sentence to summarize the objective. If the test has to be linked
-against a requirement, make sure to put the summarizing sentence into the
-doxygen test specification command. On how-to do that see the
-[requirement linking section](#how-to-link-a-requirement-against-a-test).
+Often it is also advisable to additionally provide a one sentence long
+short summary of the test intention.
+If it is difficult to summarize the test objective in one sentence,
+take a step back and ask yourself if the test is to complex or tries to
+test to much. The statement also holds for the name of the test.
 
-The second part is a detailed step by step description what the test does and
-what the expected result of the respective step is.
-To do so, we use the following scheme:
-```
-Test Sequence:
-  0. Explain in one short sentence what is done in step 1.
-  1. Explain in one short sentence what is done in step 2.
-  ...
-
-Expected Results:
-  0. Explain in one short sentence what result you expect in step 1.
-  1. Explain in one short sentence what result you expect in step 2.
-  ...
-
-``` 
 For a proper test documentation please do not forget to link the test against
 the corresponding requirement. On how-to do that see the
 [requirement linking section](#how-to-link-a-requirement-against-a-test).
@@ -272,11 +260,11 @@ On details, how to do it, see the
 [ROS wiki](http://wiki.ros.org/rosconsole#Configuration).
 
 ### How-to write proper tests
-Although it sounds like a rather easy job, writing good tests is quite hard. During
-the development, we came up with a number of rules which (we think) improve the
-quality of tests.
+Although it sounds like a rather easy job, writing good tests is quite hard. 
+During the development, we came up with a number of guidelines which (we think) 
+improve the quality of tests.
 
-#### Rule: *Each test should only test one objective*  
+#### Advise: *Each test should only test one objective*  
 Testing more than one objective makes a test more difficult to 
 understand. Why?
 - Each additional objective increases the number of requirements which have
@@ -288,11 +276,11 @@ this should have no relevance.
 therefore, see the
 [google testing blog](https://testing.googleblog.com/2018/06/testing-on-toilet-keep-tests-focused.html)
   
-#### Rule: *Keep tests as short as possible*  
+#### Advise: *Keep tests as short as possible*  
 A "small" test increases the understandability and decreases the hurdle
 to refactor a test if needed.
   
-#### Rule: *Use gtests instead of rostests for unit testing*  
+#### Advise: *Use gtests instead of rostests for unit testing*  
 We discovered that often it seems easier to use a rostest to perform
 an actual unit-test. However, the decision to use a rostest, comes with
 some heavy costs:
@@ -316,7 +304,7 @@ code. If you have a certain problem, which makes you believe you need a
 rostest, then please have a look at our unit-tests, maybe they can give you
 some inspirations how to solve these problems.
 
-#### Rule: *Avoid threading whenever possible*
+#### Advise: *Avoid threading whenever possible*
 Whenever possible we suggest that you avoid threading. If you have an
 integration or acceptance test, it cannot be avoided. However, as long as
 you are dealing with unit tests, we strongly recommend that you use pure
