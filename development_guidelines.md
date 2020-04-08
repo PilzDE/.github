@@ -221,8 +221,8 @@ test passes. Choose the test name based on the content of the test.
 Often it is also advisable to additionally provide a one sentence long
 short summary of the test intention.
 If it is difficult to summarize the test objective in one sentence,
-take a step back and ask yourself if the test is to complex or tries to
-test to much. The statement also holds for the name of the test.
+take a step back and ask yourself if the test is too complex or tries to
+test too much. The statement also holds for the name of the test.
 
 For a proper test documentation please do not forget to link the test against
 the corresponding requirement. On how-to do that see the
