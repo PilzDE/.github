@@ -1,12 +1,13 @@
- Definition of done
+# Definition of done
 
-This document clarifies, when an product backlog item is ready. During scrum development process this gives us a checklist,
+This document clarifies, when an product backlog item is done. During scrum development process this gives us a checklist,
 what needs to be done.
 The individual points are a basis for acceptance criteria and are shortened or appended by specific measures as needed.
 
 ## Documentation
-* [ ] Public api (diagrams?)
-* [ ] Tutorials
+* [ ] Public api
+* [ ] API diagrams
+* [ ] [Tutorials](https://wiki.ros.org/pilz_robots/Tutorials/)
 * [ ] Readme
 * [ ] ROS wiki
 * [ ] Code (sphinx/doxygen)
@@ -16,15 +17,14 @@ The individual points are a basis for acceptance criteria and are shortened or a
 * [ ] Copyright headers
 
 ## Reviews
-* [ ] Architecture
+* [ ] Soft- and hardware architecture
 * [ ] Code (coding rules, style guide)
 * [ ] Test review (test plan and individual test cases)
 * [ ] Documentation review
 
-## Quality: CI pass
-* [ ] Catkin_lint
-* [ ] Coverage
-* [ ] Tests
+## Quality
+* [ ] CI pass:
+The travis job (for example in [pilz_robots](https://github.com/PilzDE/pilz_robots/blob/melodic-devel/.travis.yml)) checks full code coverage, successful test execution and code formatting using catkin_lint.
 
 ## Demo
 * [ ] Example program / snippet prepared
@@ -34,5 +34,5 @@ The individual points are a basis for acceptance criteria and are shortened or a
 * [ ] When is the new feature released?
 
 ## Cleanup
-* [ ] Merge
+* [ ] [Squash-Merge](https://github.blog/2016-04-01-squash-your-commits/)
 * [ ] Delete feature branch(es)
