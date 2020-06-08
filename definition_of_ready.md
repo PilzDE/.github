@@ -1,5 +1,12 @@
 # Definition of ready (DoR)
 - Each user story should fulfill the INVEST criteria (see e.g. [Wikipedia](https://en.wikipedia.org/wiki/INVEST_(mnemonic)), [srum-in-der-praxis.de](https://scrum-in-der-praxis.de/glossary/invest))
+  - See https://www.knowledgehut.com/tutorials/scrum-tutorial/definition-of-ready
+    - Independent (of all others)
+    - Negotiable (not a contract for a specific feature)
+    - Valuable (a vertical slice)
+    - Estimable (to a decent approximation)
+    - Small (enough to fit in a single iteration)
+    - Testable (even if the test doesn't exist yet)
 
 ## In detail
 - The user story is Well-defined:
