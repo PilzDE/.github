@@ -1,5 +1,5 @@
 # Definition of ready (DoR)
-- Each user story should fulfills the INVEST criteria (see e.g. [Wikipedia](https://en.wikipedia.org/wiki/INVEST_(mnemonic)), [srum-in-der-praxis.de](https://scrum-in-der-praxis.de/glossary/invest))
+- Each user story should fulfill the INVEST criteria (see e.g. [Wikipedia](https://en.wikipedia.org/wiki/INVEST_(mnemonic)), [srum-in-der-praxis.de](https://scrum-in-der-praxis.de/glossary/invest))
 
 ## In detail
 - The user story is Well-defined:
