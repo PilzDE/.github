@@ -11,6 +11,7 @@
 ## In detail
 - The user story is Well-defined:
   - The user story should be written in the user story format, see for example [Wikipedia](https://en.wikipedia.org/wiki/User_story#Principle).
+  - e.g. `As a <role> I can <capability>, so that <receive benefit>`
 - Acceptance criteria are defined (see point 7 from [dzone.com](https://dzone.com/articles/10-tips-for-writing-good-user-stories))
   - The conditions are described which have to be fulfilled so that the story is done.
   - The team knows how to "demonstrate" the user story to the user. In other words, the team knows the value for the user/stakeholder.
