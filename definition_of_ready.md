@@ -8,7 +8,7 @@
     - Small (enough to fit in a single iteration)
     - Testable (even if the test doesn't exist yet)
 
-## Further details
+## Further requirements
 - The user story is Well-defined:
   - The user story should be written in the user story format, see for example [Wikipedia](https://en.wikipedia.org/wiki/User_story#Principle).
   - e.g. `As a <role> I can <capability>, so that <receive benefit>`
