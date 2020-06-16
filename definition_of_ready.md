@@ -24,7 +24,7 @@
  - If external documents (e.g. specs) are needed for the story they are collected and provided with the story.
  - If external help is needed the feasibility of getting this help is ensured. (Maybe even dates are set)
   - External dependencies may be present at the start of the PBI but it must be foreseeable that they are solved by the end of the work
-  - External dependencies may be present at the start of the PBI but it must be foreseeable that they are solved by the end of the work
+
 
 ## General notes
 - Stories are developed iteratively (talks with Stakeholder, Sprint-Refinement, (Sprint-Review), Sprint-Planning, etc.).
