@@ -19,7 +19,7 @@
 - Diagrams are used to support the understanding (see point 10 from [dzone.com](https://dzone.com/articles/10-tips-for-writing-good-user-stories))
 - No implicit knowledge
   - If possible, all information that the team requires to understand a User-story should be written down.
-   - Whenever new knowledge is gained regarding the User-story, it should be written down in the User-story, to promote information exchange.
+   - Whenever new knowledge is gained regarding the User-story, its description should be adjusted.
  - "Dependencies are identified and no external dependencies would block the PBI from being completed." (Source: [informit.com](https://www.informit.com/articles/article.aspx?p=1928232&seqNum=5))
  - If external documents (e.g. specs) are needed for the story they are collected and provided with the story.
  - If external help is needed the feasibility of getting this help is ensured. (Maybe even dates are set)
