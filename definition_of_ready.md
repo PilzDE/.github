@@ -13,7 +13,7 @@
   - The user story should be written in the user story format, see for example [Wikipedia](https://en.wikipedia.org/wiki/User_story#Principle).
   - e.g. `As a <role> I can <capability>, so that <receive benefit>`
 - Acceptance criteria are defined (see point 7 from [dzone.com](https://dzone.com/articles/10-tips-for-writing-good-user-stories))
-  - The conditions that have to be fulfilled such that the story is done are described. The description should allow any member of the dev team to decide whether the story is done.
+  - The description states clearly which conditions have to be fulfilled such that the story is done.
   - The team knows how to "demonstrate" the user story to the user. In other words, the team knows the value for the user/stakeholder.
   - "Without such criteria developers may not really understand the scope of the work or how it will be tested and validated." (Source: [scrum.org](https://www.scrum.org/resources/blog/walking-through-definition-ready))
 - Diagrams are used to support the understanding (see point 10 from [dzone.com](https://dzone.com/articles/10-tips-for-writing-good-user-stories))
