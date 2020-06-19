@@ -18,7 +18,7 @@
   - "Without such criteria developers may not really understand the scope of the work or how it will be tested and validated." (Source: [scrum.org](https://www.scrum.org/resources/blog/walking-through-definition-ready))
 - Diagrams are used to support the understanding (see point 10 from [dzone.com](https://dzone.com/articles/10-tips-for-writing-good-user-stories))
 - No implicit knowledge
-  - All information regarding a User-story should be written down in easy to understand sentences. Reason: It only takes a few minutes to write valuable information down but it takes ages to fix implementations based on incorrectly understood/missing information.
+  - If possible, all information that the team requires to understand a User-story should be written down.
    - Whenever new knowledge is gained regarding the User-story, it should be written down in the User-story, to promote information exchange.
  - "Dependencies are identified and no external dependencies would block the PBI from being completed." (Source: [informit.com](https://www.informit.com/articles/article.aspx?p=1928232&seqNum=5))
  - If external documents (e.g. specs) are needed for the story they are collected and provided with the story.
