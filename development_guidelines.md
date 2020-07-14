@@ -424,3 +424,12 @@ and also [docs.ros.org](https://docs.ros.org/independent/api/rosdep/html/).
   4. Execute your test. (Please note: This step is necessary because otherwise
 the sanitizer is not able to detect errors.)
 
+- **Q:** *What can I do, if my tests use `/opt/ros/...` source, instead of `/catkin_ws/src`?*  
+  **A:** If $ROS_PACKAGE_PATH and $PYTHONPATH are not the problem try:
+  1. Run `catkin_make -DENABLE_COVERAGE_TESTING=ON -DCMAKE_BUILD_TYPE=Debug`
+  2. Execute `touch ~/catkin_ws/build/CMakeCache.txt` or `catkin_make install`
+  3. RUN `catkin_make -DENABLE_COVERAGE_TESTING=ON -DCMAKE_BUILD_TYPE=Debug package_name_coverage`
+
+- **Q:** *Why do my tests produce import errors for python packages*  
+  **A:** This problem can be avoided by including the path in the PYTHONPATH environment variable:
+  - e.g. with `export PYTHONPATH="${PYTHONPATH}:/usr/lib/python2.7/dist-packages"`
