@@ -20,6 +20,6 @@ These changes Fix # | allow the user to | improve | ...
 * [ ] Documentation review
 * [ ] Code (coding rules, style guide)
 
-### Release planning
+### Release planning (please answer)
 * [ ] When is the new feature released?
 * [ ] Which dependent packages do have to be released simultaneously?
