@@ -2,10 +2,6 @@
 
 These changes Fix # | allow the user to | improve | ...
 
-## Description
-
-These changes ...
-
 ### Things to add, update or check before this PR can be merged.
 
 * [ ] Public api function documentation
