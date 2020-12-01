@@ -2,7 +2,11 @@
 
 These changes Fix # | allow the user to | improve | ...
 
+<<<<<<< HEAD:.github/PULL_REQUEST_TEMPLATE/feature.md
 ### Things to add, update or check before this PR can be merged.
+=======
+### Things to add, update or check by the maintainers before this PR can be merged.
+>>>>>>> default template:.github/pull_request_template.md
 
 * [ ] Public api function documentation
 * [ ] [Tutorials](https://wiki.ros.org/pilz_robots/Tutorials/)
