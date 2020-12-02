@@ -2,18 +2,13 @@
 
 These changes Fix # | allow the user to | improve | ...
 
-<<<<<<< HEAD:.github/PULL_REQUEST_TEMPLATE/feature.md
-### Things to add, update or check before this PR can be merged.
-=======
 ### Things to add, update or check by the maintainers before this PR can be merged.
->>>>>>> default template:.github/pull_request_template.md
 
 * [ ] Public api function documentation
 * [ ] [Tutorials](https://wiki.ros.org/pilz_robots/Tutorials/)
 * [ ] Overview on [ROS wiki](https://wiki.ros.org/pilz_robots)
 * [ ] Package Readme ([example pilz_robots](https://github.com/PilzDE/pilz_robots/blob/melodic-devel/README.md))
-* [ ] Good commit messages ([some tips](https://dev.to/jacobherrington/how-to-write-useful-commit-messages-my-commit-message-template-20n9
-))
+* [ ] Good commit messages ([some tips](https://dev.to/jacobherrington/how-to-write-useful-commit-messages-my-commit-message-template-20n9))
 * [ ] CHANGELOG.rst updated
 * [ ] Copyright headers
 * [ ] Examples
