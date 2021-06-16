@@ -23,3 +23,7 @@ These changes Fix # | allow the user to | improve | ...
 ### Release planning (please answer)
 - [ ] When is the new feature released?
 - [ ] Which dependent packages do have to be released simultaneously?
+
+### Hardware tests
+_Unstrike the text below to enable automatic hardware tests if available. Otherwise use this as a request for the reviewer._
+- [ ] ~Perform hardware tests~
