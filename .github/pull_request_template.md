@@ -2,6 +2,11 @@
 
 These changes Fix # | allow the user to | improve | ...
 
+---
+
+<details>
+<summary>PR Checklist</summary>
+
 ### Things to add, update or check by the maintainers before this PR can be merged.
 
 - [ ] Public api function documentation
@@ -27,3 +32,5 @@ These changes Fix # | allow the user to | improve | ...
 ### Hardware tests
 _Unstrike the text below to enable automatic hardware tests if available. Otherwise use this as a request for the reviewer._
 - [ ] ~Perform hardware tests~
+
+</details>
